@@ -293,7 +293,7 @@ button {
 
     .header{
         display:flex;
-        width:100%;
+        
         border-bottom:0;
         justify-content: space-between;
         padding-top:50px;
@@ -303,10 +303,10 @@ button {
     .header__title{
         display:flex;
         align-items:center;
-        gap:33px;
+        gap:15px;
         font-size:28px;
         font-weight:700;
-        margin-left:30px;
+        
     }
 
     .header__title::before{
@@ -315,9 +315,10 @@ button {
         height:40px;
         border-radius:0px 50px 50px 0px;
         background-color:#41F6d7;
-        position: absolute;
-        left:120px;
-
+        position:relative;
+        
+        
+        
     }
     .header__menu {
         padding: 0;
