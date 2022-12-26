@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/style.css">
     <title>CPS</title>
@@ -11,7 +11,9 @@
 <body>
     <div class="container">
         <header class="header">
+            <div class="header__title">Услуги и сервисы</div>
             <ul class="header__menu">
+                
                 <li class="header__icon">
                     <button class="icon" aria-label="Меню">
                         <span class="icon__img">
@@ -48,6 +50,7 @@
                 </li>
                 <li class="header__icon">
                     <button class="icon" aria-label="Ремонт">
+                        <span class="icon__text">Оставить заявку</span>
                         <span class="icon__img">
                             <img src="assets/ic/repair.svg" alt="Ремонт">
                         </span>
@@ -55,6 +58,7 @@
                 </li>
                 <li class="header__icon">
                     <button class="icon" aria-label="Проверить статус ремонта">
+                        <span class="icon__text">Статус ремонта</span>
                         <span class="icon__img">
                             <img src="assets/ic/checkstatus.svg" alt="Проверить статус ремонта">
                         </span>
@@ -93,16 +97,20 @@
                 <section class="menu-sections">
                     <div class="menu-sections__content">
                         <div class="menu-sections__text">
-                            <p class="menu-sections__description">Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.</p>
-                        </div>
-                        
-                        <div class="menu-sections__next">
-                            <button class="menu-sections__button" aria-label="Далее">Читать далее</button>
+                            <div class="menu-sections__description"><p>Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.</p></div>
+                            <br>
+
+                            <div class="menu-sections__description"><p>Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера, что подтверждает большое количество постоянных клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким.</p>
+                            </div>
+                            
+                            <div class="menu-sections__description">
+                                <button class="menu-sections__button" aria-label="Далее">Читать далее</button>
+                            </div>
                         </div>
                         <div class="menu-sections__pic">
                             <img class="menu-sections__img" src="assets/img/company.jpg" alt="Фото компании">
                         </div>
-                    </div>
+            </div>
                 </section>
             </main>
         </div>
