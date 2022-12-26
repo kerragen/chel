@@ -1,5 +1,3 @@
-
-
 *{
     margin:0;
     padding:0;
@@ -18,11 +16,6 @@ button {
     border: 0;
 }
 
-
-
-
-
-
 @media screen and (min-width:0px) {
     .header{
         border-bottom: 1px solid #D9FFF5;
@@ -36,9 +29,6 @@ button {
         padding:18px 15px;
         background-color:white;
         column-gap:16px;
-        
-        
-
     }
 
     .header__menu::before{
@@ -59,12 +49,6 @@ button {
         border:1px solid #eaeaea;
         border-radius: 1px;
     }
-
-    
-
-
-
-
 
     .header__icon:nth-child(2){
         flex-grow:1;
@@ -98,8 +82,6 @@ button {
         display:block;
     }
     
-
-    
     .header__icon:nth-child(3),
     .header__icon:nth-child(4),
     .header__icon:nth-child(5){
@@ -117,10 +99,8 @@ button {
         align-items:center;
         gap:14px;
         padding-top:20px;
+        font-size:28px;
     }
-
-    
-
 
     .menu__title::before{
          content: "";
@@ -147,7 +127,7 @@ button {
 
     .menu__nav::-webkit-scrollbar {
         width: 0;
-      }
+    }
 
     .menu__items{
         display:flex;
@@ -158,8 +138,6 @@ button {
         margin: 17px 15px;
         
     }
-
-    
 
     .menu__item{
         font-size: 16px;
@@ -178,35 +156,13 @@ button {
         border-radius:6px;
     }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    .menu-sections__description{
+        font-size:14px;
+    }
 
     .menu-sections__text{
         margin-right:15px;
         margin-left:15px;
-    }
-
-    
-    
-    .menu-sections__next{
-        
-        
     }
 
     .menu-sections__button{
