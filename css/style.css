@@ -293,11 +293,10 @@ button {
     }
 
     .menu-sections__pic{
-        margin-right:40px;
+        margin-right:60px;
         height:208px;
         width:360px;
         flex-shrink: 0;
-
     }
 
     .menu-sections__img{
@@ -318,7 +317,6 @@ button {
 
     .header{
         display:flex;
-        
         border-bottom:0;
         justify-content: space-between;
         padding-top:50px;
@@ -342,14 +340,10 @@ button {
         background-color:#41F6d7;
         position:relative;
         
-        
-        
     }
     .header__menu {
         padding: 0;
-        order: 2;
         background: 0;
-        box-shadow: none;
         column-gap: 32px;
         margin-right: 32px;
         
@@ -389,7 +383,7 @@ button {
     .menu__items{
         display:flex;
         flex-wrap:wrap;
-        row-gap: 10;
+        row-gap:12px;
     }
 
     .menu-sections__pic{
