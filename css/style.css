@@ -6,6 +6,7 @@
 
 body{
     font-family:"TT Lakes";
+    
 }
 button {
     cursor: pointer;
@@ -14,7 +15,7 @@ button {
     border: 0;
 }
 
-@media screen and (min-width:320px) {
+@media screen and (min-width:0px) {
     .header{
         border-bottom: 1px solid #D9FFF5;
     }
@@ -107,7 +108,7 @@ button {
         
     }
 
-    .menu__content{
+    .menu{
         border-color:rgba(217, 255, 245, 1);
         background: #F8F8F8;
     }
@@ -135,6 +136,7 @@ button {
     .menu__navigation{
         display:flex;
         flex-flow: row nowrap;
+        scrollbar-width:0;
     }
 
 
@@ -142,12 +144,15 @@ button {
         display:flex;
         overflow-x:scroll;
         flex-flow: row nowrap;
-        
+        scrollbar-width:none;
     }
 
     .menu__nav::-webkit-scrollbar {
-        width: 0;
+        display:none;
+        
     }
+    
+
 
     .menu__items{
         display:flex;
@@ -214,7 +219,7 @@ button {
 }
 
 
-@media screen and (min-width : 768px) {
+@media screen and (min-width:768px) {
 
     .header__menu{
         padding:18px 15px;
