@@ -56,31 +56,54 @@ button {
         border-radius: 1px;
     }
     
-    .header__icon:nth-child(3),
-    .header__icon:nth-child(4),
-    .header__icon:nth-child(5){
-        display:none;
-    }
+    
 
     .header__icon:nth-child(2){
         flex-grow:1;
     }
 
-    .icon{
-        display: flex;
-        align-items: center;
-        gap: 10px;
+    
+
+    .icon__menu{
         
+        background: url("../assets/ic/burger.svg") no-repeat center;
     }
+
+    .logo{
+        background: url("../assets/ic/Group.svg")
+    }
+
+    .icon__tel{
+        
+        background: url("../assets/ic/call.svg") no-repeat center;
+    }
+
+    .icon__chat{
+        background: url("../assets/ic/chat.svg") no-repeat center;
+    }
+
+    .icon__profile{
+        background: url("../assets/ic/profile.svg") no-repeat center;
+    }
+
+    .icon__repair{
+        background:url("../assets/ic/repair.svg") no-repeat center;
+    }
+
+    .icon__status{
+        background: url("../assets/ic/checkstatus.svg") no-repeat center;
+    }
+
+
     .icon__text {
+    
         font-weight: 500;
         font-size: 16px;
         color: #1b1c21;
-        letter-spacing: -0.4px;
         display: none;
     }
 
-    .icon__img{
+    .icon{
         display:flex;
         justify-content: center;
         align-items: center;
@@ -88,7 +111,8 @@ button {
         height:40px;
         background-color: #ff3e79;
         border-radius: 20px;
-    
+        border:0;
+        margin:0 auto;
     }
 
     .logo{
@@ -97,9 +121,7 @@ button {
         height:52px;
     }
 
-    .logo img{
-        display:block;
-    }
+    
     
     .header__icon:nth-child(3),
     .header__icon:nth-child(4),
@@ -344,8 +366,15 @@ button {
         display: none;
     }
 
+    .icon__repair{
+        margin-right:160px;
+        
+    }
+
     .icon__text {
-        display: inline;
+        display:inline;
+        margin-right:200px;
+        white-space: nowrap;
     }
 
 
