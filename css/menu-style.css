@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+body{
+    font-family: "TT Lakes";
+}
+
+button{
+    cursor: pointer;
+    font-family: inherit;
+    background: none;
+    border: 0;
+}
+
+a{
+    font-family: inherit;
+    text-decoration: none;
+    color:black;
+}
+
+a:active{
+    
+}
+
+
+
+.side-menu{
+    display:flex;
+    width:320px;
+    height:100vh;
+    box-shadow: -2px 0 4px rgba(69, 79, 126, 0.02),
+    16px 0 52px rgba(14, 24, 80, 0.2);
+    position:absolute;
+    left:0;
+    flex-direction: column;
+    
+}
+
+.menu-header__content{
+    display: flex;
+    align-items: center;
+    gap:16px;
+    padding: 18px 24px 0 24px;
+    align-items: center;
+
+}
+
+.menu-header__item:nth-child(2){
+    flex-grow:1;
+}
+
+.item{
+    display: flex;
+    justify-content:center;
+    width:40px;
+    height:40px;
+    background-color: rgba(255, 62, 121, 1);
+    border-radius: 20px;
+    
+    
+}
+
+.item:hover{
+    transition:0.4s;
+    opacity:0.7;
+
+}
+
+.item__exit{
+    background: url("../assets/ic/exit.svg") center no-repeat;
+    background-color: rgba(255, 62, 121, 1);
+    
+    
+}
+
+.logo{
+    width:97px;
+    height:51px;
+}
+
+.item__logo{
+    background: url("../assets/ic/Group.svg");
+    
+}
+
+.item__search{
+    background: url("../assets/ic/search.svg") center no-repeat;
+    background-color: rgba(255, 62, 121, 1);
+    
+}
+
+.menu-info{
+    flex-grow:1;
+}
+
+.menu-info__content{
+    display:flex;
+    flex-direction: column;
+    gap:34px;
+    padding:44px 24px 0 24px;
+}
+
+.menu-info__link{
+    font-size:16px;
+    font-weight: 500;
+}
+
+.link{
+    display:flex;
+    align-items: center;
+}
+
+.link:hover{
+    transition: 0.5s;
+    opacity: 0.7;
+
+}
+
+.link:hover::before{
+    content:"";
+    position:absolute;
+    background: #41F6D7;
+    height:32px;
+    width:4px;
+    left:0;
+    border-radius: 0 70px 70px 0;
+    
+}
+
+
+
+
+.menu-footer{
+    display:flex;
+    flex-direction: column;
+    padding:0 24px 32px 24px;
+
+}
+
+.menu-footer__button{
+    display: flex;
+    gap:16px;
+    margin-bottom:16px;
+}
+
+.item__call{
+    background: url("../assets/ic/call.svg") center no-repeat;
+    background-color: rgba(255, 62, 121, 1);
+}
+
+.item__chat{
+    background: url("../assets/ic/chat.svg") center no-repeat;
+    background-color: rgba(255, 62, 121, 1);
+}
+
+.item__profile{
+    background: url("../assets/ic/profile.svg") center no-repeat;
+    background-color: rgba(255, 62, 121, 1);
+}
+
+.menu-footer__email{
+    margin-bottom:12px;
+    font-size:16px;
+    font-weight: 500;
+
+}
+
+.menu-footer__email:hover{
+    transition: 0.5s;
+    opacity: 0.7;
+}
+
+.menu-footer__phone{
+    margin-bottom:40px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.menu-footer__phone:hover{
+    transition:0.5s;
+    opacity: 0.7;
+
+}
+
+.menu-footer__language{
+    display:flex;
+    gap:7px;
+    
+}
+
+.language__button{
+    font-size: 16px;
+    font-weight: 500;
+    
+
+}
+
+.language__button:hover{
+    transition:0.5s;
+    opacity: 0.7;
+}
+
