@@ -22,23 +22,15 @@ a{
     color:black;
 }
 
-a:active{
-    
-}
-
-
 
 .side-menu{
     display:flex;
     flex-direction: column;
     width:320px;
     height:100vh;
-    box-shadow: -2px 0 4px rgba(69, 79, 126, 0.02),
-    16px 0 52px rgba(14, 24, 80, 0.2);
+    box-shadow:16px 0 52px rgba(14, 24, 80, 0.2);
     position:absolute;
     left:0;
-    
-    
 }
 
 .menu-header__content{
@@ -61,21 +53,16 @@ a:active{
     height:40px;
     background-color: rgba(255, 62, 121, 1);
     border-radius: 20px;
-    
-    
 }
 
 .button:hover{
     transition:0.4s;
     opacity:0.7;
-
 }
 
 .item__exit{
     background: url("../assets/ic/exit.svg") center no-repeat;
     background-color: rgba(255, 62, 121, 1);
-    
-    
 }
 
 .logo{
@@ -91,7 +78,6 @@ a:active{
 .item__search{
     background: url("../assets/ic/search.svg") center no-repeat;
     background-color: rgba(255, 62, 121, 1);
-    
 }
 
 .menu-info{
@@ -118,7 +104,6 @@ a:active{
 .link:hover{
     transition: 0.5s;
     opacity: 0.7;
-
 }
 
 .link:hover::before{
@@ -129,10 +114,7 @@ a:active{
     width:4px;
     left:0;
     border-radius: 0 70px 70px 0;
-    
 }
-
-
 
 
 .menu-footer{
@@ -140,7 +122,6 @@ a:active{
     flex-direction: column;
     padding:0 24px 32px 24px;
     margin-top:25px;
-
 }
 
 .menu-footer__item{
@@ -168,7 +149,6 @@ a:active{
     margin-bottom:12px;
     font-size:16px;
     font-weight: 500;
-
 }
 
 .menu-footer__email:hover{
@@ -185,20 +165,16 @@ a:active{
 .menu-footer__phone:hover{
     transition:0.5s;
     opacity: 0.7;
-
 }
 
 .menu-footer__language{
     display:flex;
     gap:7px;
-    
 }
 
 .language__button{
     font-size: 16px;
     font-weight: 500;
-    
-
 }
 
 .language__button:hover{
