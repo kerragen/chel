@@ -60,7 +60,7 @@ a{
     opacity:0.7;
 }
 
-.item__exit{
+.menu-header__exit{
     background: url("../assets/ic/exit.svg") center no-repeat;
     background-color: rgba(255, 62, 121, 1);
 }
@@ -70,12 +70,12 @@ a{
     height:51px;
 }
 
-.item__cps{
+.menu-header__cps{
     background: url("../assets/ic/Group.svg");
     
 }
 
-.item__search{
+.menu-header__search{
     background: url("../assets/ic/search.svg") center no-repeat;
     background-color: rgba(255, 62, 121, 1);
 }
@@ -130,17 +130,17 @@ a{
     margin-bottom:16px;
 }
 
-.item__call{
+.menu-footer__call{
     background: url("../assets/ic/call.svg") center no-repeat;
     background-color: rgba(255, 62, 121, 1);
 }
 
-.item__chat{
+.menu-footer__chat{
     background: url("../assets/ic/chat.svg") center no-repeat;
     background-color: rgba(255, 62, 121, 1);
 }
 
-.item__profile{
+.menu-footer__profile{
     background: url("../assets/ic/profile.svg") center no-repeat;
     background-color: rgba(255, 62, 121, 1);
 }
