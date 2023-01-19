@@ -5,4 +5,4 @@ https://kerragen.github.io/chel/index.html
 https://kerragen.github.io/chel/menu.html
 
 # Макет 1.5
-.
+https://kerragen.github.io/chel/swiper.html
