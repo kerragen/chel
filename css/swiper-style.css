@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "TT Lakes";
+    background-color: #f8f8f8;
+}
+
+button{
+    cursor: pointer;
+    font-family: inherit;
+    background: none;
+    border: 0;
+}
+
+a{
+    font-family: inherit;
+    text-decoration: none;
+    color:black;
+}
+
+@media screen and (min-width:0px) {
+    .title{
+        padding: 16px;
+        background: linear-gradient(270deg, #ffffff 0%, #f8f8f8 98.61%);
+        border-top: 1px solid #d9fff5;
+    }
+
+    .title__name {
+        font-size: 16px;
+        font-weight: 400;
+        text-transform: uppercase;
+        color: #7e7e82;
+        letter-spacing: -0.2px;
+    }
+
+    .swiper-main {
+        width:100vw;
+        height:154px;
+    }
+    
+    
+    .swiper-main .swiper-main__slide {
+        margin-top: 16px;
+        width: 240px;
+        height: 72px;
+    }
+    
+    .swiper-main .swiper-main__slide:nth-last-child(-n + 2){
+        display:none;
+    }
+
+    .swiper-main__logo{
+        display:flex;
+        justify-content: space-between;
+        align-items:center;
+        background-color: #ffffff;
+        border: 1px solid #eaeaea;
+        border-radius: 6px;
+        width: 240px;
+        height: 72px;
+        padding: 0 16px;
+    }
+
+    .swiper-main__lenovo{
+        width:108px;
+        height:32px;
+    }
+
+    .swiper-main__samsung{
+        width:116px;
+        height:38.52px
+    }
+
+    .swiper-main__apple{
+        width:44px;
+        height:44px;
+    }
+
+    .swiper-main__viewsonic{
+        width:128px;
+        height:21px;
+    }
+
+    .swiper-main__bosch{
+        width:128px;
+        height:28.6px;
+    }
+
+    .swiper-main__hp{
+        width:52px;
+        height:52px;
+    }
+
+    .swiper-main__acer{
+        width:94px;
+        height:24px;
+    }
+
+    .swiper-main__sony{
+        width:128px;
+        height:25.6px;
+    }
+
+    .swiper-main__image{
+        width:100%;
+        height:100%;
+    }
+
+    .button{
+        background: url('../assets/ic/go.svg');
+        width:40px;
+        height:40px;
+        
+    }
+
+    .swiper-main .swiper-pagination{
+        margin-bottom:18px;
+    }
+
+    .swiper-main .swiper-pagination-bullet{
+        width:12px;
+        height:12px;
+        background: rgba(181, 182, 188, 1);
+
+
+    }
+
+    .swiper-button{
+        display:none;
+    }
+
+
+}
+
+@media screen and (min-width: 768px) {
+    .title{
+        padding-left:24px;
+    }
+
+    .swiper-main{
+        display:flex;
+        width: auto;
+        height: auto;
+        margin:0;
+        overflow: visible;
+
+    }
+
+    .swiper-main .swiper-main__wrapper{
+        width:768px;
+        margin:24px;
+        
+        flex-wrap: wrap;
+        gap: 16px 24px;
+        max-height: 250px;
+        transition: max-height 0.3s ease, height 0.3s ease;
+    }
+
+    .swiper-main .swiper-main__wrapper--hidden{
+        height: 160px;
+        overflow: hidden;
+        max-height: 160px;
+    }
+
+    .swiper-main .swiper-main__slide{
+        margin:0;
+        width:auto;
+        
+    }
+
+    
+
+    .swiper-main__logo{
+        width:224px;
+    }
+
+    .button{
+        
+    }
+
+    .swiper-button{
+        display:block;
+        margin: 0 0 34px 57px;
+        align-items:center;
+        font-size: 16px;
+        font-weight: 500;
+        position:relative;
+    }
+
+    .swiper-button::before{
+        left: -24px;
+        position: absolute;
+        content: url("../assets/ic/expand.svg");
+        transform: rotate(0);
+        transition: transform 0.5s;
+
+
+    }
+
+    .swiper-button--open::before{
+        transform: rotate(180deg);
+        transition: transform 0.5s;
+    }
+}
+
+@media screen and (min-width:1366px){
+
+    
+    .brands{
+        width:1120px;
+    }
+
+    .title{
+        padding-left:32px;
+    }
+
+    
+
+    .swiper-main__logo{
+        width:240px;
+    }
+
+    .swiper-main .swiper-main__wrapper{
+        width:auto;
+        gap: 16px 32px;
+        margin:24px 32px;
+    }
+
+    .swiper-main .swiper-main__slide:nth-last-child(-n + 2){
+        display: block;
+        
+    }
+
+    .swiper-button{
+        margin: 0 0 34px 63px;
+    }
+
+
+}
