@@ -1,4 +1,4 @@
-var swiperMedia = window.matchMedia("(max-width: 767px)");
+var swiperMedia = window.matchMedia("(max-width: 768px)");
 
 function swiperInit(swiperMedia) {
   if (swiperMedia.matches) { 
@@ -14,6 +14,17 @@ function swiperInit(swiperMedia) {
     }); 
   } 
 }
- 
+
 swiperInit(swiperMedia);
 
+var brands = document.querySelector('.swiper-wrapper');
+var openButton = document.querySelector('.swiper-button');
+
+openButton.addEventListener('click', function() {
+  brands.classList.toggle('swiper-main__wrapper--hidden');
+  openButton.textContent = 'Скрыть';
+  openButton.classList.toggle('swiper-button--open');
+  if (brands.classList.contains('swiper-main__wrapper--hidden')) {
+    openButton.textContent = 'Показать все';
+  }
+});
