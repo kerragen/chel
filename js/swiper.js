@@ -1,4 +1,4 @@
-var swiperMedia = window.matchMedia("(max-width: 768px)");
+const swiperMedia = window.matchMedia("(max-width: 768px)");
 
 function swiperInit(swiperMedia) {
   if (swiperMedia.matches) { 
@@ -17,8 +17,8 @@ function swiperInit(swiperMedia) {
 
 swiperInit(swiperMedia);
 
-var brands = document.querySelector('.swiper-wrapper');
-var openButton = document.querySelector('.swiper-button');
+const brands = document.querySelector('.swiper-wrapper');
+const openButton = document.querySelector('.swiper-button');
 
 openButton.addEventListener('click', function() {
   brands.classList.toggle('swiper-main__wrapper--hidden');

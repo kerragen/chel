@@ -38,12 +38,6 @@ a{
         letter-spacing: -0.2px;
     }
 
-    .swiper-main {
-        width:100vw;
-        height:154px;
-    }
-    
-    
     .swiper-main .swiper-main__slide {
         margin-top: 16px;
         width: 240px;
@@ -52,6 +46,11 @@ a{
     
     .swiper-main .swiper-main__slide:nth-last-child(-n + 2){
         display:none;
+    }
+
+    .swiper-main {
+        width:100vw;
+        height:154px;
     }
 
     .swiper-main__logo{
@@ -115,7 +114,6 @@ a{
         background: url('../assets/ic/go.svg');
         width:40px;
         height:40px;
-        
     }
 
     .swiper-main .swiper-pagination{
@@ -126,8 +124,6 @@ a{
         width:12px;
         height:12px;
         background: rgba(181, 182, 188, 1);
-
-
     }
 
     .swiper-button{
@@ -142,19 +138,8 @@ a{
         padding-left:24px;
     }
 
-    .swiper-main{
-        display:flex;
-        width: auto;
-        height: auto;
-        margin:0;
-        overflow: visible;
-
-    }
-
     .swiper-main .swiper-main__wrapper{
-        width:768px;
         margin:24px;
-        
         flex-wrap: wrap;
         gap: 16px 24px;
         max-height: 250px;
@@ -170,17 +155,26 @@ a{
     .swiper-main .swiper-main__slide{
         margin:0;
         width:auto;
-        
     }
 
-    
+    .swiper-main{
+        display:flex;
+        width: auto;
+        height: auto;
+        margin:0;
+        overflow: visible;
+    }
 
     .swiper-main__logo{
         width:224px;
     }
 
-    .button{
-        
+    .swiper-button::before{
+        left: -24px;
+        position: absolute;
+        content: url("../assets/ic/expand.svg");
+        transform: rotate(0);
+        transition: transform 0.5s;
     }
 
     .swiper-button{
@@ -192,34 +186,24 @@ a{
         position:relative;
     }
 
-    .swiper-button::before{
-        left: -24px;
-        position: absolute;
-        content: url("../assets/ic/expand.svg");
-        transform: rotate(0);
-        transition: transform 0.5s;
-
-
-    }
-
     .swiper-button--open::before{
         transform: rotate(180deg);
         transition: transform 0.5s;
     }
 }
 
-@media screen and (min-width:1366px){
+@media screen and (min-width: 1120px){
 
     
     .brands{
         width:1120px;
+        margin-left:auto;
+        margin-right:auto;
     }
 
     .title{
         padding-left:32px;
     }
-
-    
 
     .swiper-main__logo{
         width:240px;
@@ -238,8 +222,5 @@ a{
 
     .swiper-button{
         margin: 0 0 34px 63px;
-        cursor: pointer;
     }
-
-
 }
