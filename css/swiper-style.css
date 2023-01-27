@@ -140,6 +140,9 @@ a{
     }
 
     .swiper-main .swiper-main__wrapper{
+        display:flex;
+        align-items: center;
+        justify-content: space-between;
         margin:24px;
         flex-wrap: wrap;
         gap: 16px 24px;
@@ -215,10 +218,11 @@ a{
         width:auto;
         gap: 16px 32px;
         margin:24px 32px;
+        justify-content: left;
     }
 
     .swiper-main .swiper-main__slide:nth-last-child(-n + 2){
-        display: block;
+        
         
     }
 
