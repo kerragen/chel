@@ -36,12 +36,5 @@ openButton.addEventListener('click', function() {
 
 
 
-/*brands.classList.toggle('swiper-main__wrapper--hidden');
-  openButton.classList.toggle('swiper-button--open');
-  if (brands.classList.contains('swiper-main__wrapper--hidden')) {
-    openButton.textContent = 'Показать все';
-  } else  {
-    openButton.textContent = 'Скрыть';
-  }
-  */
+
   
