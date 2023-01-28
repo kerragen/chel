@@ -25,7 +25,23 @@ openButton.addEventListener('click', function() {
   openButton.classList.toggle('swiper-button--open');
   if (brands.classList.contains('swiper-main__wrapper--hidden')) {
     openButton.textContent = 'Показать все';
-  } else {
+  } else  {
+    openButton.textContent = 'Скрыть'
+  }
+  
+});
+
+
+
+
+
+
+/*brands.classList.toggle('swiper-main__wrapper--hidden');
+  openButton.classList.toggle('swiper-button--open');
+  if (brands.classList.contains('swiper-main__wrapper--hidden')) {
+    openButton.textContent = 'Показать все';
+  } else  {
     openButton.textContent = 'Скрыть';
   }
-});
+  */
+  
